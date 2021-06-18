@@ -10,7 +10,7 @@ from numpy.lib.polynomial import poly
 
 image = cv2.imread("basiccars.jpg")
 
-!pip install opencv-contrib-python==3.4.13.47 --force-reinstall
+
 
 image = cv2.imread("basiccars.jpg")
 box, label, count = cv.detect_common_objects(image)
