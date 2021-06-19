@@ -10,8 +10,6 @@ from numpy.lib.polynomial import poly
 
 image = cv2.imread("basiccars.jpg")
 
-
-
 image = cv2.imread("basiccars.jpg")
 box, label, count = cv.detect_common_objects(image)
 output = draw_bbox(image, box, label, count)
